@@ -72,6 +72,10 @@
     "wat_albedo"    : 0.08,                             ! User defined water albedo [-] (only used if UserDefinedWaterAlbedo = true)
     "p_sw_ice"      : 1,                                ! Fit parameter for albedo of ice, snow-ice and snow [-] (only used if IceModel = 1)
     "freez_temp"    : 0.00,                             ! Freezing temperature of water [°C] (only used if IceModel = 1)
-    "snow_temp"     : 1                                 ! Temperature of snow [°C] (only used if IceModel = 1 and SnowModel = 1)
+    "snow_temp"     : 1,                                 ! Temperature of snow [°C] (only used if IceModel = 1 and SnowModel = 1)
+    "seiche_ini"    : 0,
+    "b_ice_ini"     : 0,
+    "w_ice_ini"     : 0,
+    "snow_ini"      : 0
   }
 }
