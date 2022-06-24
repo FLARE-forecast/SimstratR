@@ -52,8 +52,11 @@
     "Start d"                     : 54421,                  ! Simulation start in days since 01.01. of starting year.
     "End d"                       : 54786,              ! Simulation end: 52959 for full historical simulation from 1861,
     "DisplaySimulation"           : 0,                  ! 0: No display, 1: Display when output is written, 2: Display every iteration
-    "Continue from last snapshot" : false               ! If true simulation continues from last snapshot (if present in output folder). Default: false
-  },
+    "Continue from last snapshot" : false,              ! If true simulation continues from last snapshot (if present in output folder). Default: false
+    "SaveEnd"                     : true,
+    "Show progress bar"           : false, ! If true the progress bar is shown, if false it is not shown
+    "Save text restart"           : false,
+    "Use text restart"            : false  },
   "ModelParameters" : {
     "lat"           : 60.37,                             ! Latitude in [°]
     "p_air"         : 960,                              ! Air pressure in [mbar]
